@@ -1,24 +1,23 @@
 package TestTaskMail;
 
 import static TestTaskMail.Utils.sleep;
-import static org.junit.Assert.assertTrue;
+import static TestTaskMail.Utils.getProperty;
 
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
-
     /**
      * validSendEmail
      */
     @Test
     public void validSendEmail()
     {
-        EmailPage email = (new HomePage()).logIn().authorize("vladimir.tlt.testtask", "testtask123456");
-        email.create("vladimir.tlt.testtask@mail.ru", "test", "Тестовое сообщение");
+        EmailPage email = (new HomePage()).logIn().authorize(getProperty("mail.login"), getProperty("mail.password"));
+        email.create(getProperty("test.email.to"), getProperty("test.email.subject"), getProperty("test.email.msg"));
         email.send();
         sleep(10);
         email.inbox();
@@ -30,8 +29,8 @@ public class AppTest
     @Test
     public void errorSendEmail()
     {
-        EmailPage email = (new HomePage()).logIn().authorize("vladimir.tlt.testtask", "testtask1234567");
-        email.create("vladimir.tlt.testtask@mail.ru", "test", "Тестовое сообщение");
+        EmailPage email = (new HomePage()).logIn().authorize(getProperty("mail.login"), getProperty("mail.password.err"));
+        email.create(getProperty("test.email.to"), getProperty("test.email.subject"), getProperty("test.email.msg"));
         email.send();
         sleep(10);
         email.inbox();

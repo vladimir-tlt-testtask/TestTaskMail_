@@ -21,7 +21,7 @@ public class EmailPage extends BasePage {
     private By inboxLink = By.xpath("//a[@href='/messages/inbox/']");
 
     public EmailPage() {
-        if (!getDriver().getCurrentUrl().contains("https://e.mail.ru")) {
+        if (!getDriver().getCurrentUrl().contains(CommonConstants.URL_MATCH_EMAIL)) {
             fail("Ошибка авторизации");
         }
         logger.info("Успешно авторизировались");
@@ -49,7 +49,6 @@ public class EmailPage extends BasePage {
 
     private EmailPage setBody(String msg) {
         logger.info("Вводим текст письма: " + msg);
-        String parentWindowHandler = getDriver().getWindowHandle();
         WebElement iframe = null;
         List<WebElement> iframes = getDriver().findElements(By.tagName("iframe"));
         for (WebElement item : iframes) {
@@ -68,11 +67,12 @@ public class EmailPage extends BasePage {
         WebElement element = getDriver().findElement(body);
         element.sendKeys(msg);
         sleep(3);
-        getDriver().switchTo().window(parentWindowHandler);
+        getDriver().switchTo().defaultContent();
         return this;
     }
 
     public EmailPage create(String to, String subject, String msg) {
+        logger.info("Создаем письмо...");
         newMail();
         setTo(to);
         setSubject(subject);
@@ -81,22 +81,26 @@ public class EmailPage extends BasePage {
     }
 
     private EmailPage newMail() {
+        logger.info("Кликаем по кнопке 'Написать письмо'");
         getDriver().findElement(newMailButton).click();
         sleep(3);
         return this;
     }
 
     public EmailPage send() {
+        logger.info("Кликаем по кнопке 'Отправить'");
         getDriver().findElement(sendButton).click();
         return this;
     }
 
     public EmailPage cancel() {
+        logger.info("Кликаем по кнопке 'Отмена'");
         getDriver().findElement(cancelButton).click();
         return this;
     }
 
     public EmailPage inbox() {
+        logger.info("Кликаем по ссылке 'Входящие'");
         getDriver().findElement(inboxLink).click();
         return this;
     }

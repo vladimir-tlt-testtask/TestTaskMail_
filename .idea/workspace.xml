@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a611ca1-b7a6-4053-aa88-af85cb7939bd" name="Default Changelist" comment="" />
+    <list default="true" id="6a611ca1-b7a6-4053-aa88-af85cb7939bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestTaskMail/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTaskMail/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTaskMail/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,13 +65,50 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1611183904">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="466" />
+          <entry key="properties" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="466" />
+          <entry key="Properties" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="3" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="374">
               <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -87,8 +133,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestTaskMail/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="186">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +178,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+            <state relative-caret-position="169">
+              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3057#3058#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="-358">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,6 +218,9 @@
       <find>errorText</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -156,12 +231,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/LoginErrorPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestTaskMail/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -216,68 +294,68 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestTaskMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTaskMail" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTaskMail_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestTaskMail_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,11 +365,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541149090065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541184024539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -310,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.validSendEmail">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="TestTaskMail.App" />
       <module name="TestTaskMail" />
@@ -328,6 +407,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestTaskMail" />
       <option name="MAIN_CLASS_NAME" value="TestTaskMail.AppTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.errorSendEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestTaskMail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestTaskMail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestTaskMail" />
+      <option name="MAIN_CLASS_NAME" value="TestTaskMail.AppTest" />
+      <option name="METHOD_NAME" value="errorSendEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,11 +447,13 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AppTest.validSendEmail" />
+      <item itemvalue="JUnit.AppTest.errorSendEmail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.validSendEmail" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.validSendEmail" />
+        <item itemvalue="JUnit.AppTest.errorSendEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -374,21 +471,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.11.02 at 12h 40m 08s.xml">
+    <history-entry file="AppTest_validSendEmail - 2018.11.02 at 20h 36m 06s.xml">
+      <configuration name="AppTest.validSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.11.02 at 20h 37m 55s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_validSendEmail - 2018.11.02 at 12h 53m 53s.xml">
-      <configuration name="AppTest.validSendEmail" configurationId="JUnit" />
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 26m 59s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_validSendEmail - 2018.11.02 at 12h 57m 43s.xml">
-      <configuration name="AppTest.validSendEmail" configurationId="JUnit" />
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 27m 44s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 29m 30s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 29m 31s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 30m 38s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 34m 06s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 37m 28s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_errorSendEmail - 2018.11.02 at 22h 38m 16s.xml">
+      <configuration name="AppTest.errorSendEmail" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.18381241" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,7 +516,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43698853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,6 +564,18 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -453,6 +583,16 @@
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>getDriver().findElements(By.xpath(&quot;//div[@class='login-header']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getDriver().findElements(By.xpath(&quot;//div[@class='login-header']]&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getDriver().findElements(errorBlock)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -486,27 +626,10 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>getDriver().findElements(By.xpath(&quot;//form[@name='Compose']&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getDriver().findElements(By.xpath(&quot;//*[@id='tinymce']&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -535,39 +658,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/LoginErrorPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/CommonConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,18 +699,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        <state relative-caret-position="169">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3057#3058#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/EmailPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="102">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestTaskMail/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -596,8 +759,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestTaskMail/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

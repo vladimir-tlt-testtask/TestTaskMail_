@@ -15,7 +15,7 @@ public class HomePage extends BasePage {
 
     public HomePage() {
         logger.info("Открываем домашнюю страницу Mail.ru");
-        get("https://mail.ru");
+        get(CommonConstants.URL_MAIL_HOME);
         if (!getDriver().getTitle().equals("Mail.Ru: почта, поиск в интернете, новости, игры")) {
             fail("This is not the Mail.Ru");
         }

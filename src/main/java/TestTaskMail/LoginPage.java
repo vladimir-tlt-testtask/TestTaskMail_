@@ -13,7 +13,7 @@ import java.util.List;
 public class LoginPage extends BasePage {
 
     private final Logger logger = LoggerFactory.getLogger(LoginPage.class);
-    private String parentWindowHandler = getDriver().getWindowHandle();
+    //private String parentWindowHandler;
 
     @FindBy(xpath = "//input[@type='text' and @name='Login']")
     private WebElement loginField;
@@ -27,18 +27,17 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//button[@type='submit' and @data-test-id='submit-button']")
     private WebElement submitButton;
 
-    @FindBy(xpath = "//div[@class='login-header' and contains(text(),'Неверное')]")
-    private WebElement errorText;
+    private By errorBlock = By.xpath("//div[@class='login-header']");
 
     public LoginPage() {
         logger.info("Открываем форму авторизации");
-        parentWindowHandler = getDriver().getWindowHandle();
+        //parentWindowHandler = getDriver().getWindowHandle();
         WebElement iframe = null;
         List<WebElement> iframes = getDriver().findElements(By.tagName("iframe"));
         for (WebElement item : iframes) {
             try {
                 String src = item.getAttribute("src");
-                if (src.startsWith("https://account.mail.ru/login")) {
+                if (src.startsWith(CommonConstants.URL_MATCH_ACCOUNT)) {
                     iframe = item;
                     break;
                 }
@@ -86,20 +85,21 @@ public class LoginPage extends BasePage {
     private EmailPage submitLogin() {
         logger.info("Отправляем форму на сервер");
         submitButton.submit();
-        getDriver().switchTo().window(parentWindowHandler);
+        //getDriver().switchTo().window(parentWindowHandler);
+        getDriver().switchTo().defaultContent();
         String errMsg = "Ошибка авторизации: " + getErrorMsg();
         assertTrue(errMsg, isError());
         return new EmailPage();
     }
 
     public boolean isError() {
-        return getDriver().getCurrentUrl().contains("https://e.mail.ru");
+        return getDriver().getCurrentUrl().contains(CommonConstants.URL_MATCH_EMAIL);
     }
 
     public String getErrorMsg() {
         String errMsg = null;
-        if (!getDriver().getCurrentUrl().contains("https://e.mail.ru")) {
-            List<WebElement> elements = getDriver().findElements(By.xpath("//div[@class='login-header']"));
+        if (!getDriver().getCurrentUrl().contains(CommonConstants.URL_MATCH_EMAIL)) {
+            List<WebElement> elements = getDriver().findElements(errorBlock);
             if (elements.size() > 1) {
                 errMsg = elements.get(0).getText();
             }
