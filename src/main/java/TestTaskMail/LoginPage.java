@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import java.util.List;
 
@@ -87,8 +88,12 @@ public class LoginPage extends BasePage {
         submitButton.submit();
         //getDriver().switchTo().window(parentWindowHandler);
         getDriver().switchTo().defaultContent();
-        String errMsg = "Ошибка авторизации: " + getErrorMsg();
-        assertTrue(errMsg, isError());
+        if (isError()) {
+            fail("Ошибка авторизации: " + getErrorMsg());
+        }
+
+//        String errMsg = "Ошибка авторизации: " + getErrorMsg();
+//        assertTrue(errMsg, isError());
         return new EmailPage();
     }
 
