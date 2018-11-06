@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestTaskMail.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in TestTaskMail.AppTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.467 s <<< FAILURE! - in TestTaskMail.AppTest
+errorSendEmail(TestTaskMail.AppTest)  Time elapsed: 0.318 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at TestTaskMail.AppTest.errorSendEmail(AppTest.java:32)
+Caused by: java.lang.IllegalStateException: The driver executable does not exist: D:\Programms\Java2\TestTaskMail_\chromedriver.exe
+	at TestTaskMail.AppTest.errorSendEmail(AppTest.java:32)
+
+validSendEmail(TestTaskMail.AppTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class TestTaskMail.HomePage
+	at TestTaskMail.AppTest.validSendEmail(AppTest.java:19)
+
